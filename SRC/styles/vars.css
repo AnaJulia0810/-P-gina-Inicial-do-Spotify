@@ -1,0 +1,17 @@
+:root{
+
+        
+--font-dm-sans:"DM Sans", sans-serif;
+
+/* COLORS GLOBAL */
+--bg-body-VRGL:#131313;
+--bg-arrow-color-VRGL: rgba(0, 250, 0, 7);
+--bg-gradient-footer-VRGL: linear-gradient(to right, #ae2896, #509bf5);
+--bg-button-VRGL: #ffffff;
+
+/* COLORS MOD 01 */
+--bg-body-VRM1:#131313;
+--bg-arrow-color-VRM1: rgba(0, 250, 0, 7);
+--bg-gradient-footer-VRM1: darkgreen;
+--bg-button-VRM1: #ffffff;
+}

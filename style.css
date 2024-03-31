@@ -1,0 +1,172 @@
+/* NORMALIZAÇÃO */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    border: none;
+
+}
+
+html{
+
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.sidebar {
+
+    position: fixed;/* deixa fixo */
+    width: 300px;
+    height: 158px;
+    background-color: #292929; 
+
+    border-radius: 8px;
+    cursor: default;
+    margin: 10px;
+
+}
+
+.sidebar__navigation , .library__content {
+
+    padding: 20px;
+
+}
+
+.logo img {
+
+    width: 78px;
+    height: 24px;
+
+}
+
+.fa {
+
+    padding-right: 15px;
+    
+}
+
+.fa-home {
+
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom:10px ;
+    color: #fff;
+
+}
+
+.fa-search {
+
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: #fff;
+
+}
+
+span {
+
+    color: #a7a6a6;
+    font-size: 15px;
+
+}
+
+/* ----------TERMINO REVISÃO AULA 01 ---------- */
+/* -------------------------------------------- */
+
+.library {
+
+    position: fixed;
+    width: 300px;
+    height: 258px;
+    background-color: #292929; 
+    border-radius: 8px;
+    cursor: default;
+
+}
+
+.library__button {
+
+    background-color: #292929;
+
+}
+
+.fa-plus {
+
+    padding-left: 99.5px ;
+
+}
+
+.section-playlist {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-playlist__content {
+
+    background-color: #535353;
+    color: #292929;
+    height: 125px;
+    width: 95%;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: flex-start;
+
+}
+
+.txt {
+
+    color: #fff;
+
+}
+
+.title {
+
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.subtitle {
+
+    padding-bottom: 20px;
+
+}
+
+.section-playlist__content.section-playlist__button {
+
+    align-items: flex-start;
+
+}
+
+.section-playlist__button {
+
+    padding: 8px 20px; /* Aumenta o preenchimento para ajustar a largura */
+    border-radius: 20px; /* Aumenta o raio da borda */
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 20px; /* Adiciona mais margem à direita */
+
+}
+
+.section-playlist__button span {
+
+    font-size: 11px;
+    color: black;
+    
+}

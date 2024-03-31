@@ -1,0 +1,133 @@
+.main-container{
+
+    width: 82vw;
+    height: auto;
+    position: fixed;/* deixa fixo */
+    margin-left: 330px ;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+/* setas */
+.header__navigation{
+    background-color: var(--bg-body-VRGL);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+}
+.arrow-right, .arrow-left{
+
+    background-color: var(--bg-body-VRGL);
+    border-radius: 50px;
+    margin: 9px;
+
+}
+.arrow-left{
+    
+    margin-left: 19px;
+
+}
+
+/* barra de pesquisa*/
+.header__search {
+    width: 30%;
+    background-color: #353434;
+    color: #a7a6a6;
+    padding: 8px 150px 10px 10px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    box-sizing: border-box; /* Incluir padding e bordas na largura total */
+
+}
+.header__search img{
+
+    width: 15px;
+    margin-right: 15px;
+
+}
+.header__search input{
+    padding: 3px;
+    background-color: #353434;
+    color: #fff;
+    border: none;
+    width: 100%;
+    outline: none; /* Remover a borda ao receber foco */
+    text-overflow: ellipsis;
+
+}
+
+.header__search:hover input {
+    border: none; /* Remover borda ao passar o mouse */
+}
+
+/* Botões */
+.header__login{ 
+
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.subscribe, .login{
+
+    padding: 12px 19px 12px 19px;
+    border-radius: 19px;
+    color: black;
+    font-weight: 400; 
+
+}
+.subscribe{
+    color: var(--bg-button-VRGL);
+    background-color: rgba(255, 0, 0, 0); 
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+.offer__scroll-container {
+    width: 100%;
+    height: 655px;
+    overflow-y: auto;
+    background-color: var(--bg-body-VRGL);
+    border-radius: 15px;
+}
+
+.offer__list-item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; 
+    padding: 25px;
+}
+
+.cards {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.cards img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(20deg); /* Inclinação da imagem */
+}
+
+.card1 {
+    background-color: rgb(76, 117, 103);
+}
+
+.cards span {
+    display: block;
+    color: #fff;
+    text-align: center; 
+}

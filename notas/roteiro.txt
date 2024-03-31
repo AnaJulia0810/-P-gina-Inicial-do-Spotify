@@ -1,0 +1,35 @@
+﻿#O que fazer? 
+
+HTML
+-----------------------------------------------------
+ALTERAR APENAS AS MARCAÇÕES ANEXADAS NO MATERIAL HTML 3
+
+#Preparação do Ambiente de Desenvolvimento(VSCODE)
+-----------------------------------------------------
+1.Organização do arquivos 
+2.Link no HTML dos novos arquivos CSS
+3.Marcação do HTML: Barra de Pesquisa e Rodapé (HTML)
+4.Criar as variáveis de CORES com os IDENTIFICADORES (CSS)
+5.Aplicar variáveis no layout da Sidebar (CSS) 
+6.Estilizar a barra de pesquisa(CSS)
+7.Estilizar o rodapé (CSS)
+
+#20 minutos antes do prazo final para enviar a atividade
+-----------------------------------------------------
+1. Revisar código para entregar
+2. Preparar arquivos para envio
+3. Enviar arquivos 
+4. Preparação para o saída 
+
+#Background do gradiente Footer
+-----------------------------------------------------
+linear-gradient(to right, #ae2896, #509bf5)
+
+#Variáveis 
+-----------------------------------------------------
+Global 
+--nomeVRGL
+
+Modelo01
+--nomeVRM1
+
